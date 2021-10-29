@@ -58,18 +58,17 @@ function checker(answers)
         removee()
         
         
-        
-        
+           
     }
     else if(answers.Options==='Read')
     {
-        
+     
         console.log("You chose Read")
     }
     else if(answers.Options==='List')
     {
         console.log("You chose List")
-        
+      
     }
    
     else
