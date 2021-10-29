@@ -39,7 +39,6 @@ function removee(answers)
                 const t=JSON.stringify(pa)
                 fs.writeFileSync("notes.json",t)
             }
-    
         }
     })
     
