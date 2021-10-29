@@ -5,7 +5,7 @@ const inquirer=require("inquirer")
 const fs=require('fs')
 inquirer.
 prompt([
-    {type:'list',name:'Options',message:"Choose what you would like to do",choices:["Add","Remove","Read","List"]}
+    {type:'list',name:'Options',message:"Choose what you would like to do",choices:["Add","Remove"]}
 ]).then((answers)=>{checker(answers)})
 
 function input()
