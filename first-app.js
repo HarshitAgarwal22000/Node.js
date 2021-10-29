@@ -52,23 +52,29 @@ function checker(answers)
     {
         console.log("You chose Add")
         input()
-
-
     }
     else if (answers.Options==='Remove'){
         console.log("You chose Remove")
         removee()
+        
+        
+        
+        
     }
     else if(answers.Options==='Read')
     {
+        
         console.log("You chose Read")
     }
     else if(answers.Options==='List')
     {
         console.log("You chose List")
+        
     }
+   
     else
     {
+        
         
         console.log("Wrong Input")
     }
